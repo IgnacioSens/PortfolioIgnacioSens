@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- ✏️ Edite o título -->
+  <title>Sobre — Seu Nome</title>
+  <meta name="description" content="Saiba mais sobre [Seu Nome]" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Seu<span>Nome</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="experiencias.html">Experiências</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <!-- ============ FIM NAVBAR ============ -->
+
+
+  <!-- ============ CABEÇALHO DA PÁGINA ============ -->
+  <div class="page-wrapper">
+    <header class="page-hero">
+      <div class="container">
+        <span class="section-label">Conheça-me</span>
+        <h1 class="section-title">Sobre Mim</h1>
+        <div class="divider"></div>
+      </div>
+    </header>
+
+
+    <!-- ============ CONTEÚDO PRINCIPAL ============ -->
+    <main style="padding: 80px 0;">
+      <div class="container">
+        <div class="about-layout">
+
+          <!-- COLUNA ESQUERDA: foto -->
+          <aside class="about-left fade-in">
+            <div class="photo-frame">
+              <!-- ✏️ Para adicionar sua foto: substitua o bloco abaixo por:
+                   <img src="images/foto.jpg" alt="Seu Nome" style="width:100%;height:100%;object-fit:cover;" />
+              -->
+              <div class="photo-placeholder">
+                <!-- Ícone de pessoa (SVG inline, sem dependência externa) -->
+                <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="32" cy="22" r="12" stroke="currentColor" stroke-width="1.5"/>
+                  <path d="M8 56c0-13.255 10.745-24 24-24s24 10.745 24 24" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+                <span>Sua Foto</span>
+              </div>
+              <div class="photo-deco"></div>
+            </div>
+          </aside>
+
+          <!-- COLUNA DIREITA: texto e habilidades -->
+          <div class="about-right">
+
+            <!-- Bio -->
+            <div class="fade-in">
+              <span class="section-label">Quem sou eu</span>
+              <h2 class="section-title" style="font-size: 1.8rem;">
+                <!-- ✏️ Edite o headline da bio -->
+                Uma breve apresentação sobre você
+              </h2>
+
+              <!-- ✏️ Edite os parágrafos da sua bio -->
+              <p class="about-bio">
+                Olá! Sou [Seu Nome], [sua profissão/especialidade] com [X] anos de experiência
+                em [área principal]. Apaixonado(a) por resolver problemas complexos com soluções
+                elegantes e eficientes.
+              </p>
+              <p class="about-bio">
+                Tenho experiência trabalhando com [mencione tecnologias, setores ou tipos de projeto].
+                Valorizo código limpo, boas práticas e colaboração em equipe.
+              </p>
+              <p class="about-bio">
+                Quando não estou programando, [fale sobre hobbies, interesses pessoais].
+                Acredito que a diversidade de experiências enriquece a forma como enxergamos problemas.
+              </p>
+            </div>
+
+            <!-- Botão de ação -->
+            <div class="fade-in" style="margin: 32px 0;">
+              <a href="contato.html" class="btn btn-gold">Entre em Contato</a>
+            </div>
+
+
+            <!-- HABILIDADES -->
+            <div class="skills-section fade-in">
+              <h3>Habilidades</h3>
+
+              <!-- ✏️ Grupo 1 de habilidades -->
+              <div class="skill-group">
+                <p class="skill-group-title">Frontend</p>
+                <div class="skill-tags">
+                  <!-- ✏️ Adicione ou remova tags conforme suas habilidades -->
+                  <span class="skill-tag">HTML5</span>
+                  <span class="skill-tag">CSS3</span>
+                  <span class="skill-tag">JavaScript</span>
+                  <span class="skill-tag">React</span>
+                  <span class="skill-tag">TypeScript</span>
+                  <span class="skill-tag">Habilidade 6</span>
+                </div>
+              </div>
+
+              <!-- ✏️ Grupo 2 de habilidades -->
+              <div class="skill-group">
+                <p class="skill-group-title">Backend</p>
+                <div class="skill-tags">
+                  <span class="skill-tag">Node.js</span>
+                  <span class="skill-tag">Python</span>
+                  <span class="skill-tag">SQL</span>
+                  <span class="skill-tag">Habilidade 4</span>
+                  <span class="skill-tag">Habilidade 5</span>
+                </div>
+              </div>
+
+              <!-- ✏️ Grupo 3 de habilidades -->
+              <div class="skill-group">
+                <p class="skill-group-title">Ferramentas</p>
+                <div class="skill-tags">
+                  <span class="skill-tag">Git</span>
+                  <span class="skill-tag">Docker</span>
+                  <span class="skill-tag">Figma</span>
+                  <span class="skill-tag">VS Code</span>
+                  <span class="skill-tag">Ferramenta 5</span>
+                </div>
+              </div>
+
+              <!-- ✏️ Adicione mais grupos de habilidades copiando o bloco acima -->
+
+            </div>
+            <!-- FIM HABILIDADES -->
+
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- ============ FIM CONTEÚDO ============ -->
+
+
+    <!-- ============ FOOTER ============ -->
+    <footer>
+      <div class="footer-inner">
+        <span class="footer-name">Seu Nome</span>
+        <span class="footer-copy">© 2025 — Todos os direitos reservados</span>
+        <nav class="footer-links">
+          <a href="sobre.html">Sobre</a>
+          <a href="projetos.html">Projetos</a>
+          <a href="contato.html">Contato</a>
+        </nav>
+      </div>
+    </footer>
+  </div>
+  <!-- ============ FIM FOOTER ============ -->
+
+  <script src="script.js"></script>
+</body>
+</html>

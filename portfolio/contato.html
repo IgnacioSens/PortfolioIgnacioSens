@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato — Seu Nome</title>
+  <meta name="description" content="Entre em contato com [Seu Nome]" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Seu<span>Nome</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="experiencias.html">Experiências</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <!-- ============ FIM NAVBAR ============ -->
+
+
+  <div class="page-wrapper">
+
+    <!-- Cabeçalho da página -->
+    <header class="page-hero">
+      <div class="container">
+        <span class="section-label">Vamos conversar</span>
+        <h1 class="section-title">Contato</h1>
+        <div class="divider"></div>
+        <!-- ✏️ Edite a mensagem de boas-vindas -->
+        <p class="section-subtitle">
+          Tem um projeto em mente, uma proposta ou simplesmente quer trocar uma ideia?
+          Ficarei feliz em ouvir você.
+        </p>
+      </div>
+    </header>
+
+
+    <!-- ============ LAYOUT DE CONTATO ============ -->
+    <main style="padding: 60px 0 100px;">
+      <div class="container">
+        <div class="contact-layout">
+
+          <!-- COLUNA ESQUERDA: informações de contato -->
+          <aside class="fade-in">
+            <div class="contact-info">
+              <h3>Informações de Contato</h3>
+              <!-- ✏️ Edite o texto -->
+              <p>
+                Respondo mensagens em até 24 horas.
+                Para projetos urgentes, prefira o WhatsApp ou telefone.
+              </p>
+            </div>
+
+            <ul class="contact-list">
+
+              <!-- ✏️ E-mail -->
+              <li>
+                <a href="mailto:seuemail@exemplo.com" class="contact-item">
+                  <div class="contact-item-icon">
+                    <!-- Ícone de e-mail (SVG inline) -->
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                      <rect x="2" y="4" width="20" height="16" rx="2"/>
+                      <path d="M2 7l10 7 10-7"/>
+                    </svg>
+                  </div>
+                  <div class="contact-item-info">
+                    <p class="contact-item-label">E-mail</p>
+                    <!-- ✏️ Edite seu e-mail -->
+                    <p class="contact-item-value">seuemail@exemplo.com</p>
+                  </div>
+                </a>
+              </li>
+
+              <!-- ✏️ Telefone / WhatsApp -->
+              <li>
+                <a href="tel:+5511999999999" class="contact-item">
+                  <div class="contact-item-icon">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                      <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 1h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+                    </svg>
+                  </div>
+                  <div class="contact-item-info">
+                    <p class="contact-item-label">Telefone / WhatsApp</p>
+                    <!-- ✏️ Edite seu número -->
+                    <p class="contact-item-value">+55 (11) 9 9999-9999</p>
+                  </div>
+                </a>
+              </li>
+
+              <!-- ✏️ LinkedIn -->
+              <li>
+                <a href="https://linkedin.com/in/seu-perfil" target="_blank" rel="noopener" class="contact-item">
+                  <div class="contact-item-icon">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                      <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/>
+                      <rect x="2" y="9" width="4" height="12"/>
+                      <circle cx="4" cy="4" r="2"/>
+                    </svg>
+                  </div>
+                  <div class="contact-item-info">
+                    <p class="contact-item-label">LinkedIn</p>
+                    <!-- ✏️ Edite seu LinkedIn -->
+                    <p class="contact-item-value">linkedin.com/in/seu-perfil</p>
+                  </div>
+                </a>
+              </li>
+
+              <!-- ✏️ GitHub -->
+              <li>
+                <a href="https://github.com/seu-usuario" target="_blank" rel="noopener" class="contact-item">
+                  <div class="contact-item-icon">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/>
+                    </svg>
+                  </div>
+                  <div class="contact-item-info">
+                    <p class="contact-item-label">GitHub</p>
+                    <!-- ✏️ Edite seu GitHub -->
+                    <p class="contact-item-value">github.com/seu-usuario</p>
+                  </div>
+                </a>
+              </li>
+
+              <!-- ✏️ Adicione mais canais de contato copiando um bloco <li> acima -->
+
+            </ul>
+          </aside>
+
+
+          <!-- COLUNA DIREITA: formulário -->
+          <div class="contact-form fade-in">
+            <h3>Envie uma Mensagem</h3>
+
+            <!--
+              NOTA: Este formulário não tem backend.
+              Para enviar e-mails de verdade, integre com:
+              - Formspree (formspree.io) — gratuito, fácil
+              - Netlify Forms — se hospedar no Netlify
+              - EmailJS — JavaScript puro
+            -->
+            <form>
+
+              <!-- Nome -->
+              <div class="form-group">
+                <label for="nome">Nome</label>
+                <input
+                  type="text"
+                  id="nome"
+                  name="nome"
+                  placeholder="Seu nome completo"
+                  required
+                />
+              </div>
+
+              <!-- E-mail -->
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="seu@email.com"
+                  required
+                />
+              </div>
+
+              <!-- Assunto -->
+              <div class="form-group">
+                <label for="assunto">Assunto</label>
+                <input
+                  type="text"
+                  id="assunto"
+                  name="assunto"
+                  placeholder="Do que se trata?"
+                />
+              </div>
+
+              <!-- Mensagem -->
+              <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea
+                  id="mensagem"
+                  name="mensagem"
+                  placeholder="Escreva sua mensagem aqui..."
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-gold" style="width: 100%; justify-content: center;">
+                Enviar Mensagem
+              </button>
+
+            </form>
+
+            <!-- Mensagem de sucesso (exibida pelo JS após o envio) -->
+            <div class="form-success">
+              <p style="font-family: var(--font-display); font-size: 1.3rem; margin-bottom: 8px;">
+                Mensagem enviada!
+              </p>
+              <p style="font-size: 13px; color: var(--text-secondary);">
+                Obrigado pelo contato. Responderei em breve.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </main>
+    <!-- ============ FIM CONTATO ============ -->
+
+
+    <!-- ============ FOOTER ============ -->
+    <footer>
+      <div class="footer-inner">
+        <span class="footer-name">Seu Nome</span>
+        <span class="footer-copy">© 2025 — Todos os direitos reservados</span>
+        <nav class="footer-links">
+          <a href="sobre.html">Sobre</a>
+          <a href="projetos.html">Projetos</a>
+          <a href="contato.html">Contato</a>
+        </nav>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

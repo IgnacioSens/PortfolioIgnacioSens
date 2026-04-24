@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Experiências — Seu Nome</title>
+  <meta name="description" content="Trajetória profissional de [Seu Nome]" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">Seu<span>Nome</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="experiencias.html">Experiências</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <!-- ============ FIM NAVBAR ============ -->
+
+
+  <div class="page-wrapper">
+
+    <!-- Cabeçalho da página -->
+    <header class="page-hero">
+      <div class="container">
+        <span class="section-label">Minha trajetória</span>
+        <h1 class="section-title">Experiências</h1>
+        <div class="divider"></div>
+        <!-- ✏️ Edite a descrição -->
+        <p class="section-subtitle">
+          Um resumo das empresas e projetos pelos quais passei ao longo da minha carreira.
+        </p>
+      </div>
+    </header>
+
+
+    <!-- ============ LINHA DO TEMPO ============ -->
+    <main style="padding: 60px 0 100px;">
+      <div class="container">
+
+        <!--
+          ╔══════════════════════════════════════════╗
+          ║  COMO ADICIONAR UMA EXPERIÊNCIA:         ║
+          ║  Copie um bloco <div class="timeline-    ║
+          ║  item"> abaixo e edite os campos.        ║
+          ╚══════════════════════════════════════════╝
+        -->
+
+        <ol class="timeline">
+
+          <!-- ── EXPERIÊNCIA 1 (mais recente) ── -->
+          <li class="timeline-item fade-in">
+            <!-- ✏️ Período da experiência -->
+            <span class="timeline-period">Jan 2023 — Atual</span>
+
+            <div class="timeline-header">
+              <!-- ✏️ Cargo -->
+              <h2 class="timeline-role">Desenvolvedor(a) Full Stack Sênior</h2>
+              <!-- ✏️ Empresa -->
+              <p class="timeline-company">Nome da Empresa / Organização</p>
+            </div>
+
+            <!-- ✏️ Descrição das responsabilidades e conquistas -->
+            <p class="timeline-desc">
+              Liderança técnica no desenvolvimento de [tipo de produto/sistema].
+              Responsável por [principais atividades]. Resultados alcançados:
+              [mencione números/impacto quando possível, ex: redução de 40% no tempo de resposta].
+            </p>
+
+            <!-- ✏️ Habilidades utilizadas -->
+            <div class="timeline-skills">
+              <span class="timeline-skill">React</span>
+              <span class="timeline-skill">Node.js</span>
+              <span class="timeline-skill">AWS</span>
+              <span class="timeline-skill">PostgreSQL</span>
+              <span class="timeline-skill">Scrum</span>
+            </div>
+          </li>
+
+          <!-- ── EXPERIÊNCIA 2 ── -->
+          <li class="timeline-item fade-in">
+            <span class="timeline-period">Mar 2021 — Dez 2022</span>
+
+            <div class="timeline-header">
+              <h2 class="timeline-role">Desenvolvedor(a) Front-End Pleno</h2>
+              <p class="timeline-company">Nome da Empresa 2</p>
+            </div>
+
+            <p class="timeline-desc">
+              Desenvolvimento de interfaces responsivas para [tipo de produto].
+              Colaboração próxima com o time de UX para [objetivo].
+              Implementação de [tecnologia/metodologia] que resultou em [impacto].
+            </p>
+
+            <div class="timeline-skills">
+              <span class="timeline-skill">Vue.js</span>
+              <span class="timeline-skill">TypeScript</span>
+              <span class="timeline-skill">Figma</span>
+              <span class="timeline-skill">Jest</span>
+            </div>
+          </li>
+
+          <!-- ── EXPERIÊNCIA 3 ── -->
+          <li class="timeline-item fade-in">
+            <span class="timeline-period">Jun 2019 — Fev 2021</span>
+
+            <div class="timeline-header">
+              <h2 class="timeline-role">Desenvolvedor(a) Júnior</h2>
+              <p class="timeline-company">Nome da Empresa 3</p>
+            </div>
+
+            <p class="timeline-desc">
+              Início da carreira profissional com foco em [área].
+              Participação em [tipo de projeto]. Aprendizado de [tecnologias/processos].
+            </p>
+
+            <div class="timeline-skills">
+              <span class="timeline-skill">JavaScript</span>
+              <span class="timeline-skill">HTML/CSS</span>
+              <span class="timeline-skill">PHP</span>
+              <span class="timeline-skill">MySQL</span>
+            </div>
+          </li>
+
+
+          <!-- ─────────────────────────────────── -->
+          <!--        FORMAÇÃO ACADÊMICA           -->
+          <!-- ─────────────────────────────────── -->
+
+          <!-- Separador visual (opcional) -->
+          <li class="timeline-item fade-in" style="margin-top: 64px;">
+            <span class="section-label" style="margin-bottom: 48px; display: block;">Formação</span>
+
+            <!-- ✏️ Graduação -->
+            <span class="timeline-period">2015 — 2019</span>
+            <div class="timeline-header">
+              <h2 class="timeline-role">Bacharelado em [Curso]</h2>
+              <p class="timeline-company">Nome da Universidade</p>
+            </div>
+            <p class="timeline-desc">
+              Breve descrição da formação, projeto de conclusão ou destaques acadêmicos.
+            </p>
+          </li>
+
+          <!-- ✏️ Copie um bloco acima para adicionar mais experiências ou formações -->
+
+        </ol>
+      </div>
+    </main>
+    <!-- ============ FIM LINHA DO TEMPO ============ -->
+
+
+    <!-- ============ FOOTER ============ -->
+    <footer>
+      <div class="footer-inner">
+        <span class="footer-name">Seu Nome</span>
+        <span class="footer-copy">© 2025 — Todos os direitos reservados</span>
+        <nav class="footer-links">
+          <a href="sobre.html">Sobre</a>
+          <a href="projetos.html">Projetos</a>
+          <a href="contato.html">Contato</a>
+        </nav>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
